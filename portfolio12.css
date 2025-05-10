@@ -1,0 +1,231 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  .cv-section {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .cv-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cv-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .cv-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cv-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .cv-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cv-section {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px 20px;
+}
+
+.cv-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cv-section h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #e63946;
+}
+
+.cv-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.cv-left, .cv-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.cv-left h3, .cv-right h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #e63946;
+}
+
+.cv-left p, .cv-right p, .cv-right li, .cv-left li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.cv-left ul, .cv-right ul {
+  list-style: inside disc;
+  margin-bottom: 20px;
+}
+
+.cv-left strong, .cv-right strong {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .cv-content {
+    flex-direction: column;
+  }
+}
+
+  background-color: #0c0c0c;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Portfolio Section */
+.portfolio {
+  width: 100%;
+  padding: 50px;
+}
+
+/* Container */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Text Section */
+.text {
+  flex: 1;
+  padding-right: 50px;
+}
+
+/* Small "I am" text */
+.small-text {
+  color: #e63946;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Name */
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Profession */
+h2 {
+  font-size: 32px;
+  color: #e63946;
+  margin-bottom: 20px;
+}
+
+/* Description paragraph */
+.description {
+  color: #cccccc;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+/* About Me Button */
+.about-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #e63946;
+  border: 2px solid #e63946;
+  padding: 12px 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.about-btn:hover {
+  background-color: #e63946;
+  color: white;
+}
+
+/* Stats (Projects & Clients) */
+.stats {
+  display: flex;
+  gap: 60px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats div h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.stats div p {
+  font-size: 14px;
+  color: #cccccc;
+  margin-top: 5px;
+}
+
+/* Right Image Section */
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 400px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .text {
+    padding: 0;
+  }
+
+  .image {
+    margin-bottom: 30px;
+  }
+}
